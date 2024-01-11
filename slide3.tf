@@ -1,8 +1,8 @@
-variable "nested_map" {
+variable "nested_map1" {
 type = map(map(string))
 default = {
 group1 = {"name" = "Alice", "age" = "25"}
-group2 = {"name" = "bob", "age" ="30"}
+group2 = {"name" = "bob", "age" = "30"}
 }
 }​
 locals{
